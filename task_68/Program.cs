@@ -26,7 +26,7 @@ int Ack(int n, int m)
 
 if(n > 0 && m > 0)
 {
-  Console.WriteLine(Ack(n, m));
+  Console.WriteLine("Значение функции Аккермана =  " + Ack(n, m));
 } else 
 {
   Console.WriteLine("Чмсла m и n должны быть положительными");
